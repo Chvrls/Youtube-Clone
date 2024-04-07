@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FlexBox Practice</title>
+  <style>
+    .flexbox{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 30px;
+    }
+
+    .flexbox1{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 30px;
+      align-content: center;
+      border-width: 2px;
+      border-style: solid;
+      border-color: gray;
+
+    }
+
+    .div1{
+      background-color: lightblue;
+    }
+
+    .div2{
+      background-color: lightpink;
+    }
+
+    .div3{
+      background-color: lightpink;
+      width: 100px;
+    }
+
+    .div4{
+      background-color: lightblue;
+      flex: 1;
+    }
+
+    .div5{
+      background-color: lightpink;
+      flex: 2;
+    }
+
+    .div6{
+      background-color: lightpink;
+      width: 100px;
+    }
+
+    .div7{
+      background-color: lightblue;
+      width: 100px;
+    }
+
+    .div8{
+      background-color: lightpink;
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="flexbox">
+  <div class="div1">div 1
+    <p>text hahahaha</p>
+  </div>
+  <div class="div2">div 2 text</div>
+  </div>
+
+  <div class="flexbox">
+    <div class="div3">div 1
+      <p>100px</p>
+    </div>
+    <div class="div4">flex1</div>
+    <div class="div5">flex2</div>
+    </div>
+
+    <div class="flexbox1">
+    <div class="div6">div 1
+      <p>100px</p>
+    </div>
+    <div class="div7">flex1</div>
+    <div class="div8">flex2</div>
+    </div>
+</body>
+</html>
